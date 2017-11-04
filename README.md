@@ -3,8 +3,9 @@
 ## HTML/css面试题
 1. 什么是盒子模型
 ```
-在网页中，一个元素占有空间的大小由几个部分构成，其中包括元素的内容（content），元素的内边距（padding），元素的边框（border），
-元素的外边距（margin）四个部分。这四个部分占有的空间中，4个部分一起构成了css中元素的盒模型。
+在网页中，一个元素占有空间的大小由几个部分构成，其中包括元素的内容（content），元素的内边距（padding），
+元素的边框（border），元素的外边距（margin）四个部分。
+这四个部分占有的空间中，4个部分一起构成了css中元素的盒模型。
 其中，在iE浏览器中，盒模型=content+margin，也就是content包含了padding和border的值。
 而在w3c标准中，盒模型=content+padding+margin+border。
 ```
@@ -42,3 +43,5 @@ CSS：
         margin-left: -100px;
     } 
 ```
+4.简述一下src与href的区别
+* aaa
