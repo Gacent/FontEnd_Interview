@@ -98,6 +98,7 @@ getElementsByName() //通过元素的Name属性的值
 getElementById() //通过元素Id，唯一性
 ```
 2. 实现一个函数clone，可以对JavaScript中的5种主要的数据类型（包括Number、String、Object、Array、Boolean）进行值复制。
+> 详解函数[Object.prototype.toString.call(obj)和toString方法](http://www.baidu.com)
 ```
 /**
  * 对象克隆
