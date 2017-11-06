@@ -1,6 +1,6 @@
 # web前端面试
 > about HTML/css、JavaScript
-## HTML/css面试题
+## HTML/CSS面试题
 1. 什么是盒子模型
 ```
 在网页中，一个元素占有空间的大小由几个部分构成，其中包括元素的内容（content），元素的内边距（padding），
@@ -71,3 +71,23 @@ CSS：
 7. px和em的区别
 - px和em都是长度单位，区别是，px的值是固定的，指定是多少就是多少，计算比较容易。em得值不是固定的，并且em会继承父级元素的字体大小。
 - 浏览器的默认字体高都是16px。所以未经调整的浏览器都符合: 1em=16px。那么12px=0.75em, 10px=0.625em
+8. 浏览器的内核分别是什么?
+- IE: trident内核
+- Firefox：gecko内核
+- Safari：webkit内核
+- Opera和Chrome：Blink(基于webkit，Google与Opera Software共同开发)
+## JavaScript部分
+1. 怎样添加、移除、移动、复制、创建和查找节点？
+- 创建新节点
+> createDocumentFragment() //创建一个DOM片段
+createElement() //创建一个具体的元素
+createTextNode() //创建一个文本节点
+- 添加、移除、替换、插入
+> appendChild() //添加
+removeChild() //移除
+replaceChild() //替换
+insertBefore() //插入
+- 查找
+> getElementsByTagName() //通过标签名称
+getElementsByName() //通过元素的Name属性的值
+getElementById() //通过元素Id，唯一性
